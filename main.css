@@ -148,6 +148,7 @@ header {
   }
   
   footer{
+    
     padding: 90px 20px;/*сделайте внутренние отступы: 90px сверху и снизу, 20px справа и слева*/
     font-size: 16px;
     font-weight: 600;
@@ -168,14 +169,17 @@ header {
     margin-bottom: 15px;
   }
   .footer__copyright{
+    /* display: flex;  */
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;  
-    /*justify-content: center;      */
+    /*justify-content: center !important; */
     opacity: 0.5;
   }
   .footer__container{
     display: flex; 
-          
-    /*justify-content: center;*/
+    justify-content: center;
+    align-items: center;
     /*text-align: center;*/
   }
