@@ -168,13 +168,9 @@ header {
     flex-direction: column;     
     margin-bottom: 15px;
   }
-  .footer__copyright{
-    /* display: flex;  */
+  .footer__copyright{    
+    text-align: center !important;  
     margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;  
-    /*justify-content: center !important; */
     opacity: 0.5;
   }
   .footer__container{
