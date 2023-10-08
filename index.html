@@ -2,28 +2,36 @@
 <html lang="ru"> 
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Солнечные батареи GreenCorp</title>
     <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="fa/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
-<header>
+    
+<header >
     <img class="header_logo" src="img/logo.svg">
     <div class="header__controls">
         <a href="#contacts">Контакты</a>
         <button>Заказать</button></div>
 </header>
 <section class="about">
-    <div class="about_info">
+    <div class="about_info animate__animated animate__bounceInLeft">
+
 <h1>Солнечные панели GreenRobotic</h1>
 <p>Производите дешёвую экологически чистую электроэнергию
      из солнечного света</p>
-    <button>Узнать подробнее</button>
+    <button>
+        <div class="icon">Узнать подробнее
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+    </button>
     </div>
-<div class="about_images">
-    <img class="about_sun-image new_sun" src="img/sun.png">
+<div class="about_images animate__animated animate__bounceInRight">
+    <img class="new_sun" src="img/sun.png">
     <img class="about_image" src="img/solar-panel.png">
 </div>
 </section>
@@ -60,6 +68,8 @@
     </div>
 </section>
 
+
+<script src="fa/js/all.min.js"></script>
 </body>
 <footer>
     <div class="footer__container">
